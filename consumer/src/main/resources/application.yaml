@@ -1,0 +1,11 @@
+spring.application.name: consumer
+server.port: 8081
+
+spring.kafka.consumer:
+  bootstrap-server: localhost:9092
+  group-id: wiki
+  auto-offset-reset: earliest
+  key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+  value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+hippon.topic.name: wikimedia-stream
