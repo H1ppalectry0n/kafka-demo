@@ -7,5 +7,4 @@
 # Запуск
 1. Запустить локальный сервис Apache Kafka на порту `9092`;
 2. Запустить Consumer;
-3. Запустить Producer;
-4. Отправить GET запрос на адресс `localhost:8080/api/v1/wikimedia`.
+3. Запустить Producer;4. Отправить GET запрос на адрес `localhost:8080/api/v1/wikimedia`.
